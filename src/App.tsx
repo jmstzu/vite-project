@@ -17,7 +17,7 @@ function Profile({height, border, text, width, color} :  ProfileProps){
         width: width,
         border: `3px solid ${border}`,
         backgroundColor: color,
-        color: 'black',
+        color: '',
       }}>
         {text}
       </div>
@@ -28,7 +28,7 @@ function Profile({height, border, text, width, color} :  ProfileProps){
 function App() {
   return (
     <section>
-      <Profile  text={'CPEITEL'} border={'black'} color={'#ce93d8'} width={'200'} height={'200'}/>
+      <Profile  text={'CPEITEL'} border={'black'} color={'#ce93d8'} width={'200px'} height={'200px'}/>
     </section>
   );
 }
