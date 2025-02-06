@@ -1,0 +1,14 @@
+.box{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  color: black;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
